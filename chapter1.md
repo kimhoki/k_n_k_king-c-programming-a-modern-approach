@@ -1,3 +1,4 @@
-# First Chapter
-
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
