@@ -70,3 +70,17 @@ a+1 = 22ccd4    &a+1 = 22cce0
 ```
 
 2차원 배열일 경우
+
+```C
+#include <stdio.h>
+void main(void)
+{
+  int a[4] = {1,2,3,4};
+  int i;
+  for(i = 0; i < 4; i++)
+  printf("주소 =%x a[%d]=%d\n", (a+1), i, *(a+1));
+  printf("a\%x    &a=%x\n", a, &a);
+  printf("a+1=%x  &a+1=%x\n", a+1, &a+1);
+}
+
+```
